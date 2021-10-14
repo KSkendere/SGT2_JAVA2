@@ -5,7 +5,7 @@ import java.lang.reflect.Array;
 public class MaxNumber {
 
     public static void main(String[] args) {
-        int[] nums = {2,3,4,5};
+        int[] nums = {2,2,2,2,2};
 
         int max = Integer.MIN_VALUE;
         int max2 = Integer.MIN_VALUE;
@@ -18,6 +18,7 @@ public class MaxNumber {
                 max = nums[i];
             }
         }
+        System.out.println(max);
         for (int j = 0; j < nums.length; j++) {
 
 
@@ -25,7 +26,8 @@ public class MaxNumber {
             if (max2 < nums[j] && nums[j] != max) {
                 max2 = nums[j];
             }
-        }
+
+        } System.out.println(max2);
 
         for (int n = 0; n < nums.length; n++) {
 
@@ -37,12 +39,12 @@ public class MaxNumber {
 
         if (nums.length < 3 && nums.length > 1) {
             System.out.println("The largest number is " + max);
-        } else if (nums.length > 3 && nums.length < 1) {
-            System.out.println("The third distinct maximum is " + max3);
+
         } else {
 
             System.out.println("The third distinct maximum is " + max3);
-        }
+
+                  }
     }
 }
 
