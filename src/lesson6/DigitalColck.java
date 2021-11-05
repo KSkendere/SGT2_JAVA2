@@ -1,8 +1,8 @@
 package lesson6;
 
-import lesson6.clockFeatures.Calendar;
-import lesson6.clockFeatures.StopWatch;
-import lesson6.clockFeatures.TimeClock;
+import lesson6.clockfeatures.Calendar;
+import lesson6.clockfeatures.StopWatch;
+import lesson6.clockfeatures.TimeClock;
 
 public class DigitalColck {
     private TimeClock timeClock;

@@ -1,6 +1,6 @@
 package lesson6;
 
-import lesson6.clockFeatures.domain.Hour;
+import lesson6.clockfeatures.domain.Hour;
 
 public class Application {
 
